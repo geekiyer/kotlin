@@ -123,6 +123,10 @@ fun main(args: Array<String>) {
             testClass<AbstractFirWhenMissingCasesTest> {
                 model("components/whenMissingCases")
             }
+
+            testClass<AbstractFirReturnTargetSymbolTest> {
+                model("components/returnTargetSymbol")
+            }
         }
 
         testGroup("analysis/analysis-api-fe10/tests", "analysis/analysis-api/testData") {
@@ -188,6 +192,10 @@ fun main(args: Array<String>) {
 
             testClass<AbstractKtFe10WhenMissingCasesTest> {
                 model("components/whenMissingCases")
+            }
+
+            testClass<AbstractKtFe10ReturnTargetSymbolTest> {
+                model("components/returnTargetSymbol")
             }
         }
 
